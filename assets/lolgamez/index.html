@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lolgamez</title>
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="bulma.min.css" />
+    <style>body{background-color: #00c2fc!important;}</style>
+</head>
+
+<body>
+    <section class="hero is-info is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+                            <img src="logo.png" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <span class="navbar-item">
+                                <a style="color:white!important;" href="#">Home
+                                </a>
+                            </span>
+                             <span class="navbar-item">
+                                <a style="color:white!important;" href="about.html">About Us
+                                </a>
+                            </span>
+                             <span class="navbar-item">
+                                <a style="color:white!important;" href="games/games.html">Games
+                                </a>
+                            </span>
+                             <span class="navbar-item">
+                                <a style="color:white!important;" href="about.html">Staff
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            </div>
+
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="column is-6 is-offset-3">
+                        <h1 class="title">
+                            Introducing: Fishy
+                        </h1>
+                        <h2 class="subtitle">
+                            A fish friend to play with. Max out his stats to win a prize!!
+                        </h2>
+                         <div class="subtitle">
+                            <button class="button is-white is-outlined" onclick="onFeed()">Feed</button>
+                           <button class="button is-white is-outlined" onclick="onPlay()">Play</button>
+                         </div>
+                        <div class="box">
+                           <p>Happiness 😃</p>
+                           <progress class="progress is-warning" id="fish-happy" value="75" max="100">75%</progress>
+                           <p>Health ❤️</p>
+<progress class="progress is-danger" id="fish-health" value="90" max="100">90%</progress>
+                        </div>
+                        <div class="box">
+                            <img src="" id="fish-state" style="position: absolute; margin-top: 5%; left: 60%; max-width: 120px; display: none;">
+                            <img src="sprinkle2.gif" id="fish-feed" style="position: absolute; display: none;">
+                            <img src="fish.gif">
+                            <!-- Heres an easy one: CCSCFLAG2{Always_check_the_page_source}-->
+                            <p id="info"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+<script src="js/fishy.js"></script>
+</body>
+</html>
+
+

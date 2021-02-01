@@ -1,0 +1,8 @@
+Hey guys,
+This is important please read:
+
+ICxfICAgICBfCiB8XFxfLC1+LwogLyBfICBfIHwgICAgLC0tLgooICBAICBAICkgICAvICwtJwogXCAgX1RfLy0uXyggKAogLyAgICAgICAgIGAuIFwKfCAgICAgICAgIF8gIFwgfAogXCBcICwgIC8gICAgICB8CiAgfHwgfC1fXF9fICAgLwogKChfL2AoX19fXywtJwpDU1NDRkxBRzF7TWVvd3d3d3d3fQo=
+
+I have protected it from the bad guys, but there are 64 bases to decode it.
+
+- N
