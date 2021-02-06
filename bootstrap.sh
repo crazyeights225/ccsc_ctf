@@ -4,8 +4,9 @@ PROJECTFOLDER='lolgamez'
 ASSETSFOLDER='assets'
 
 ## CLEAR PAST CONTENTS (IF EXIST):
-sudo rm -rf "/var/www/html/${PROJECTFOLDER}/"
-
+#sudo rm -rf "/var/www/html/${PROJECTFOLDER}/"
+sudo mkdir "/var/www/"
+sudo mkdir "/var/www/html/"
 sudo mkdir "/var/www/html/${PROJECTFOLDER}/"
 
 sudo cp -r "/tmp/assets/${PROJECTFOLDER}/" "/var/www/html/"
@@ -24,6 +25,7 @@ sudo apt-get install -y vsftpd
 sudo apt-get install -y sqlite3
 
 sudo cp "/tmp/assets/vsftpd.conf" "/etc/vsftpd.conf"
+mkdir "/var/ftp/"
 mkdir "/var/ftp/pub/"
 sudo chown nobody:nogroup "/var/ftp/pub/"
 sudo cp "/tmp/assets/ftp/lolgamez_notice.txt" "/var/ftp/pub/"
@@ -99,6 +101,8 @@ sudo apt-get -y install docker-compose
 
 sudo mkdir "/var/apps"
 sudo rm -rf "/var/apps/CTFd/"
+sudo mkdir "/var/apps/CTFd/"
+
 sudo cp -r "/tmp/assets/CTFd/" "/var/apps/CTFd"
 sudo chgrp -R vagrant "/var/apps/"
 sudo apt-get install -y python3-pip
